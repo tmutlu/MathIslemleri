@@ -79,7 +79,7 @@ public class MathIslemleri {
              String bugun = dateFormat.format(date).toString();
              System.out.println(bugun);
              String sicil = "B60711630";
-             String evrakno = "20170567234";
+             String evrakno = "20170567235";
              Double y = Double.valueOf(evrakno);
              Double x = Double.valueOf(bugun);
              Double sayi50 = Math.ceil((y/x)*Math.PI);
