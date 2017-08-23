@@ -78,7 +78,7 @@ public class MathIslemleri {
              Date date = new Date();
              String bugun = dateFormat.format(date).toString();
              System.out.println(bugun);
-             String sicil = "M1997069";
+             String sicil = "B60711630";
              String evrakno = "20170567234";
              Double y = Double.valueOf(evrakno);
              Double x = Double.valueOf(bugun);
